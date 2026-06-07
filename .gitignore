@@ -1,0 +1,43 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Large model files (uncomment if you don't want to upload them)
+similarity.pkl
+ movie_dict.pkl
